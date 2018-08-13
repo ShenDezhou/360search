@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle 360search'
+      'command': '360search:360-it'
+    }
+  ]
+'menu': [
+  {
+    'label': 'My Packages'
+    'submenu': [
+      'label': '360 Search'
+      'submenu': [
+        {
+          'label': 'Search'
+          'command': '360search:360-it'
+        }
+      ]
+    ]
+  }
+]
