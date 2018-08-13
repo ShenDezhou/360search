@@ -1,13 +1,13 @@
 {
   "name": "360search",
   "main": "./lib/googlesearch",
-  "version": "1.7.0",
+  "version": "1.0.0",
   "description": "Search Highlighted word in 360",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "360search:360-it"
   },
-  "repository": "https://github.com/shendezhou/googlesearch",
+  "repository": "https://github.com/shendezhou/360search",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
