@@ -8,7 +8,7 @@ module.exports =
     editor = atom.workspace.getActiveTextEditor()
     buffer = editor.getBuffer()
     selections = editor.getSelections()
-
+ 
     buffer.transact ->
       for selection in selections
         cased = selection.getText()
